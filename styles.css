@@ -1,0 +1,25 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+@media (max-width: 768px) {
+    .table th, .table td {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .table th, .table td {
+        font-size: 0.8rem;
+    }
+}
