@@ -9,7 +9,7 @@ let tablaVisible = false;
 
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('registroForm');
-    const listarBtn = document.getElementById('listarUsuarios');
+    const listarBtn = document.getElementById('listarUsuarios');document.getElementById('listarUsuarios');
 
     if (form) {
         form.addEventListener('submit', function(e) {
